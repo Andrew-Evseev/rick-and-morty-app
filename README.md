@@ -26,3 +26,31 @@ Flutter приложение для просмотра персонажей му
 3. Установите зависимости:
 ```bash
 flutter pub get
+
+
+# 🚀 Rick and Morty Characters App
+
+![Flutter](https://img.shields.io/badge/Flutter-3.22.0-blue)
+![Dart](https://img.shields.io/badge/Dart-3.4.0-blue)
+
+A beautiful Flutter application for browsing characters from the Rick and Morty API.
+
+## ✨ Features
+- 📱 **Character List** with infinite scroll pagination
+- ⭐ **Favorites System** with smooth animations  
+- 🌙 **Dark/Light Theme** toggle
+- 💾 **Local Storage** with SQLite
+- 🔄 **REST API Integration**
+- 🎯 **Sorting** favorites by name/status
+
+## 🛠 Tech Stack
+- Flutter 3.22.0
+- Dart 3.4.0
+- Provider (State Management)
+- SQLite (Local Database)
+- HTTP (API Integration)
+
+## 🎮 How to Run
+```bash
+flutter pub get
+flutter run -d chrome
